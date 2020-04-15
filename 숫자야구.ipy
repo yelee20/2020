@@ -1,0 +1,10 @@
+#generate three random numbers (0-9 integer)
+import random
+computer_num=[]
+for i in range (0,3):
+    random_num = random.randint(0,9)
+    computer_num.append(random_num)
+#get input
+input_num = list(map(int,input().split()))[:3]
+print(computer_num)
+print(input_num)
