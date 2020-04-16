@@ -12,7 +12,6 @@ for i in range (0,2):
         break
     print("You have duplicates! Try again!")"""
 
-print(computer_num)
 #Initialize number of balls and strikes
 B=0 #number of balls
 S=0 #number of strikes
