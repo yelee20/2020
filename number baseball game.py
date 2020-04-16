@@ -12,8 +12,6 @@ for i in range (0,2):
         break
     print("You have duplicates! Try again!")"""
 
-print(computer_num)
-print(input_num)
 
 #Initialize number of balls and strikes
 B=0 #number of balls
@@ -30,8 +28,8 @@ for i in range (0,3):
 #Check if the user get same numbers or not
 while S != 3:
     print("Your input was ",input_num,"\n")
-    print("You've got ",B,"Ball(s)\n")
-    print("You've got ",S,"Strike(s)")
+    print("You got ",B,"Ball(s)\n")
+    print("You got ",S,"Strike(s)")
     
     input_num=[]
     input_num = list(map(int,input("Guess three different integers (range: 0~9)").split()))[:3]
