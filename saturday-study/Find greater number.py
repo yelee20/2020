@@ -10,7 +10,7 @@ def findGreaterNumbers(arr):
       if arr[i]<arr[j] and i<j: #if a number is followed by a larger number
         count+=1
 
-  print(count)
+  return count
       
 print(findGreaterNumbers([1,2,3])) # 3 (2 > 1, 3 > 2, and 3 > 1)
 print(findGreaterNumbers([6,1,2,7])) # 4
