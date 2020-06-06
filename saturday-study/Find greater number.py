@@ -6,7 +6,7 @@
 def findGreaterNumbers(arr):
   count=0
   for i in range(len(arr)):
-    for j in range(len(arr)):
+    for j in range(i+1,len(arr)): #i+1
       if arr[i]<arr[j] and i<j: #if a number is followed by a larger number
         count+=1
 
