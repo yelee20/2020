@@ -12,7 +12,7 @@ def findTheDuplicate(arr):
         duplicate.append(arr[i])
 
     if len(duplicate)==0:
-       print("undefined")
+       return ("undefined")
     else:
        print(*set(duplicate)) #remove brackets
 
