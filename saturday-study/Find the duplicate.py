@@ -14,7 +14,7 @@ def findTheDuplicate(arr):
     if len(duplicate)==0:
        print("undefined")
     else:
-       print(*set(duplicate))
+       print(*set(duplicate)) #remove brackets
 
 print(findTheDuplicate([1,2,1,4,3,12])) #1
 print(findTheDuplicate([6,1,9,5,3,4,9])) #9
