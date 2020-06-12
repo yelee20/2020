@@ -1,4 +1,4 @@
-#20200610
+#20200614
 # 1. bubble sort
 # given an array of numbers, sort them without using your language’s built in .sort method
 # input: [4, 7, 2, 3, 8]
