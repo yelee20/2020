@@ -7,6 +7,7 @@
 
 # Because nums[0] + nums[1] = 2 + 7 = 9,
 # Output: [0, 1].
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         p1 = 0
@@ -25,7 +26,7 @@ class Solution:
             #len(nums) = 4, run 3+2+1 = 6 times
             #len(nums) = 3, run 2+1 = 3 times
 
-
+#time complexity: O(N**2)
 
 """
 Method(2) Nested for loop
@@ -34,4 +35,7 @@ class Solution:
         for i in range(len(nums)):
             for j in range(i+1,len(nums)):
                 if nums[i]+nums[j] == target:
-                    return [i,j]"""
+                    return [i,j]
+                    
+                    
+#time complexity: O(N**2)"""
