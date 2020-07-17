@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\yelee\Desktop\Coding\Python\newdj\myvenv"
+VIRTUAL_ENV="C:\Git\2020\newdj\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

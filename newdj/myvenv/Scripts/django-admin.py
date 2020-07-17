@@ -1,4 +1,4 @@
-#!c:\users\yelee\desktop\coding\python\newdj\myvenv\scripts\python.exe
+#!c:\git\2020\newdj\myvenv\scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":
